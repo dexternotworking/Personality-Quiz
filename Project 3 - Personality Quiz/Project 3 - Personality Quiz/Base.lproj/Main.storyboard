@@ -18,9 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S60-X3-mjh">
-                                <rect key="frame" x="29" y="297" width="318.5" height="74.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="S60-X3-mjh">
+                                <rect key="frame" x="28.5" y="296.5" width="318.5" height="74.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which Animal Are You?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wD1-2x-iRU">
                                         <rect key="frame" x="0.0" y="0.0" width="318.5" height="34.5"/>
@@ -75,8 +74,10 @@
                             <constraint firstItem="Xak-kf-3xM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="W6C-Pm-9Cy"/>
                             <constraint firstItem="Rfl-zt-yje" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="doN-hu-6m0" secondAttribute="trailing" constant="8" symbolic="YES" id="Xvf-KQ-F0N"/>
                             <constraint firstItem="2gO-FY-arX" firstAttribute="baseline" secondItem="Xak-kf-3xM" secondAttribute="baseline" id="YS5-hT-Pb6"/>
+                            <constraint firstItem="S60-X3-mjh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bJF-70-Ey0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xak-kf-3xM" secondAttribute="bottom" constant="20" id="fS1-hs-wMV"/>
                             <constraint firstItem="Xak-kf-3xM" firstAttribute="leading" secondItem="Rfl-zt-yje" secondAttribute="leading" id="jXj-wn-Ofb"/>
+                            <constraint firstItem="S60-X3-mjh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rGX-7c-Da8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -285,7 +286,7 @@
             </objects>
             <point key="canvasLocation" x="1784.8" y="133.5832083958021"/>
         </scene>
-        <!--Title-->
+        <!--Results-->
         <scene sceneID="sai-cg-KaJ">
             <objects>
                 <viewController id="DOb-Kj-Cfu" customClass="ResultsViewController" customModule="Project_3___Personality_Quiz" customModuleProvider="target" sceneMemberID="viewController">
@@ -319,7 +320,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GAl-f6-s72"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="CJn-Fz-bDO">
+                    <navigationItem key="navigationItem" title="Results" id="CJn-Fz-bDO">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="l4h-K9-g9v">
                             <connections>
                                 <segue destination="Y9c-pU-WpS" kind="unwind" unwindAction="unwindToQuizIntroductionWithSegue:" id="Ohv-ob-B0a"/>
