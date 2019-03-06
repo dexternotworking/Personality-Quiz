@@ -44,22 +44,22 @@ class QuestionViewController: UIViewController {
         text: "Which food do you like the most?",
         type: .single,
         answers: [
-            Answer(text: "Salad", type: .peacock),
-            Answer(text: "Vegetables", type: .unicorn),
-            Answer(text: "Meat", type: .trex),
-            Answer(text: "Organic", type: .panda)
+            Answer(text: "Fruits and Vegetables", type: .peacock),
+            Answer(text: "Leftovers", type: .unicorn),
+            Answer(text: "Fast Food", type: .trex),
+            Answer(text: "Organic Ice Cream", type: .panda)
         ]),
     Question(
         text: "Which activities do you enjoy?",
         type: .multiple,
         answers: [
-            Answer(text: "Being majestic", type: .unicorn),
-            Answer(text: "Roaming", type: .trex),
+            Answer(text: "Tomfoolery", type: .unicorn),
+            Answer(text: "Eating", type: .trex),
             Answer(text: "Sleeping", type: .panda),
             Answer(text: "Frolicking", type: .peacock)
         ]),
     Question(
-        text: "How much do you enjoy social media?",
+        text: "How much do you enjoy smiling?",
         type: .ranged,
         answers: [
             Answer(text: "I don't notice it", type: .trex),
