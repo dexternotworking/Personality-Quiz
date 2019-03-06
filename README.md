@@ -4,7 +4,7 @@
 The app matches the user's animal personality based on the responses given
 
 ## Description:
-(TBD)
+This is a simple questionairre for the user and matches their inputs to an animal
 
 ## Technologies Used:
 * Interface Builder
